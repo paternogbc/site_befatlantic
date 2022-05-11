@@ -1,0 +1,15 @@
+name: "BEF-Atlantic"
+navbar:
+  title: "BEF-Atlantic"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Experimental design"
+      href: design.html
+    
+output:
+  html_document:
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
